@@ -101,31 +101,31 @@
             "nom": "Arròs",
             "quantitat": 200.0,
             "unitats": "grams",
-            "calories": "180 kcal"
+            "calories": 180
           },
           {
             "nom": "Camaró",
             "quantitat": 100.0,
             "unitats": "grams",
-            "calories": "90 kcal"
+            "calories": 90
           },
           {
             "nom": "Pollastre",
             "quantitat": 150.0,
             "unitats": "grams",
-            "calories": "210 kcal"
+            "calories": 210
           },
           {
             "nom": "Safrà",
             "quantitat": 0.5,
             "unitats": "grams",
-            "calories": "2 kcal"
+            "calories": 2
           },
           {
             "nom": "Aigua",
             "quantitat": 500.0,
             "unitats": "ml",
-            "calories": "0 kcal"
+            "calories": 0
           }
         ]
       }
@@ -145,31 +145,31 @@
             "nom": "Enciam",
             "quantitat": 80.0,
             "unitats": "grams",
-            "calories": "14 kcal"
+            "calories": 14
           },
           {
             "nom": "Tomàquet",
             "quantitat": 100.0,
             "unitats": "grams",
-            "calories": "18 kcal"
+            "calories": 18
           },
           {
             "nom": "Tonyina",
             "quantitat": 120.0,
             "unitats": "grams",
-            "calories": "132 kcal"
+            "calories": 132
           },
           {
             "nom": "Ou dur",
             "quantitat": 50.0,
             "unitats": "grams",
-            "calories": "77 kcal"
+            "calories": 77
           },
           {
             "nom": "Oliva",
             "quantitat": 10.0,
             "unitats": "unitats",
-            "calories": "40 kcal"
+            "calories": 40
           }
         ]
       }
