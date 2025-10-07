@@ -131,9 +131,50 @@
       "Pot contenir traces de crustacis",
       "Conté Safrà"
     ]
+},
+{
+    "nom": "Amanida de Tonyina",
+    "preu": 8.00,
+    "recepta": [
+      {
+        "ingredients": [
+          {
+            "nom": "Enciam",
+            "quantitat": 80.0,
+            "unitats": "grams",
+            "calories": "14 kcal"
+          },
+          {
+            "nom": "Tomàquet",
+            "quantitat": 100.0,
+            "unitats": "grams",
+            "calories": "18 kcal"
+          },
+          {
+            "nom": "Tonyina",
+            "quantitat": 120.0,
+            "unitats": "grams",
+            "calories": "132 kcal"
+          },
+          {
+            "nom": "Ou dur",
+            "quantitat": 50.0,
+            "unitats": "grams",
+            "calories": "77 kcal"
+          },
+          {
+            "nom": "Oliva",
+            "quantitat": 10.0,
+            "unitats": "unitats",
+            "calories": "40 kcal"
+          }
+        ]
+      }
+    ],
+    "alergogens": [
+      "Ou dur"
+    ]
 }
-    
-
 ]
 }
 ```
