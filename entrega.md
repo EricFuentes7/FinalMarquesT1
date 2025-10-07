@@ -181,3 +181,105 @@
 ]
 }
 ```
+
+## CSV
+
+Plats que tenim a la cuina:
+
+```csv
+Nom,Preu,Alergogens
+Paella,12.50,Crustacis i Safrà
+Amanida de Tonyina,8.00,Ou dur
+```
+
+Ingredients de **Paella**
+
+```csv
+Nom,Quantitat,Unitats,Calories-kcal
+Arròs,200.0,grams,180
+Camaró,100.0,grams,90
+Pollastre,150.0,grams,210
+Safrà,0.5,grams,2
+Aigua,500.0,ml,0
+```
+
+Ingredients de **Amanida de Tonyina**
+
+```csv
+Nom,Quantitat,Unitats,Calories-kcal
+Enciam,80.0,grams,132
+Tomàquet,100.0,grams,18
+Tonyina,120.0,grams,132
+Ou dur,50.0,grams,77
+Oliva,10.0,unitats,40
+```
+
+## YAML
+
+```yaml
+cuina:
+  plats:
+    paella:
+      nom: "Paella"
+      preu: 12.50
+      ingredients:
+        arros:
+          nom: "Arròs"
+          quantitat: 200
+          unitats: "grams"
+          kcalories: 180
+        camaro:
+          nom: "Camaró"
+          quantitat: 100
+          unitats: "grams"
+          kcalories: 90
+        pollastre:
+          nom: "Pollastre"
+          quantitat: 150
+          unitats: "grams"
+          kcalories: 2
+        safra:
+          nom: "Safrà"
+          quantitat: 0.5
+          unitats: "grams"
+          kcalories: 2
+        aigua:
+          nom: "Aigua"
+          quantitat: 500
+          unitats: "ml"
+          kcalories: 0
+      alergogens:
+        - "Pot contenir traces de crustacis"
+        - "Conté Safrà"
+    amanida-de-tonyina:
+      nom: "Amanida de Tonyina"
+      preu: 8
+      ingredients:
+        enciam:
+          nom: "Enciam"
+          quantitat: 80
+          unitats: "grams"
+          kcalories: 14
+        tomaquet:
+          nom: "Tomàquet"
+          quantitat: 100
+          unitats: "grams"
+          kcalories: 18
+        tonyina:
+          nom: "Tonyina"
+          quantitat: 120
+          unitats: "grams"
+          kcalories: 132
+        ou-dur:
+          nom: "Ou dur"
+          quantitat: 50
+          unitats: "grams"
+          kcalories: 77
+        oliva:
+          nom: "Oliva"
+          quantitat: 10
+          unitats: "unitats"
+          kcalories: 40
+      alergogens:
+        - "Ou dur"
+```
