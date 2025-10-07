@@ -223,31 +223,31 @@ cuina:
       nom: "Paella"
       preu: 12.50
       ingredients:
-        arros:
-          nom: "Arròs"
-          quantitat: 200
-          unitats: "grams"
-          kcalories: 180
-        camaro:
-          nom: "Camaró"
-          quantitat: 100
-          unitats: "grams"
-          kcalories: 90
-        pollastre:
-          nom: "Pollastre"
-          quantitat: 150
-          unitats: "grams"
-          kcalories: 2
-        safra:
-          nom: "Safrà"
-          quantitat: 0.5
-          unitats: "grams"
-          kcalories: 2
-        aigua:
-          nom: "Aigua"
-          quantitat: 500
-          unitats: "ml"
-          kcalories: 0
+        - ingredient:
+            nom: "Arròs"
+            quantitat: 200
+            unitats: "grams"
+            kcalories: 180
+        - ingredient:
+            nom: "Camaró"
+            quantitat: 100
+            unitats: "grams"
+            kcalories: 90
+        - ingredient:
+            nom: "Pollastre"
+            quantitat: 150
+            unitats: "grams"
+            kcalories: 2
+        - ingredient:
+            nom: "Safrà"
+            quantitat: 0.5
+            unitats: "grams"
+            kcalories: 2
+        - ingredient:
+            nom: "Aigua"
+            quantitat: 500
+            unitats: "ml"
+            kcalories: 0
       alergogens:
         - "Pot contenir traces de crustacis"
         - "Conté Safrà"
@@ -255,31 +255,31 @@ cuina:
       nom: "Amanida de Tonyina"
       preu: 8
       ingredients:
-        enciam:
-          nom: "Enciam"
-          quantitat: 80
-          unitats: "grams"
-          kcalories: 14
-        tomaquet:
-          nom: "Tomàquet"
-          quantitat: 100
-          unitats: "grams"
-          kcalories: 18
-        tonyina:
-          nom: "Tonyina"
-          quantitat: 120
-          unitats: "grams"
-          kcalories: 132
-        ou-dur:
-          nom: "Ou dur"
-          quantitat: 50
-          unitats: "grams"
-          kcalories: 77
-        oliva:
-          nom: "Oliva"
-          quantitat: 10
-          unitats: "unitats"
-          kcalories: 40
+        - ingredient:
+            nom: "Enciam"
+            quantitat: 80
+            unitats: "grams"
+            kcalories: 14
+        - ingredient:
+            nom: "Tomàquet"
+            quantitat: 100
+            unitats: "grams"
+            kcalories: 18
+        - ingredient:
+            nom: "Tonyina"
+            quantitat: 120
+            unitats: "grams"
+            kcalories: 132
+        - ingredient:
+            nom: "Ou dur"
+            quantitat: 50
+            unitats: "grams"
+            kcalories: 77
+        - ingredient:
+            nom: "Oliva"
+            quantitat: 10
+            unitats: "unitats"
+            kcalories: 40
       alergogens:
         - "Ou dur"
 ```
