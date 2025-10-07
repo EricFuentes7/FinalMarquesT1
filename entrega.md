@@ -1,7 +1,9 @@
 # XML
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <cuina>
-    <plat nom = "Paella" preu= "12.50">
+    <plat nom = "Paella">
+        <preu>12.50</preu>
         <recepta>
             <ingredients>
                 <ingredient>
@@ -42,7 +44,8 @@
         </alergogens>
     </plat>
 
-    <plat nom = "Amanida de Tonyina" preu= "8.00">
+    <plat nom = "Amanida de Tonyina">
+        <preu>8.00</preu>
         <recepta>
             <ingredients>
                 <ingredient>
